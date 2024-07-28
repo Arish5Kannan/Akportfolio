@@ -9,12 +9,12 @@ header nav{
     height:60px;
     display:flex;
 padding-left: 3px;
-    background-color: rgb(235, 231, 12);
+    background-color: #3a3434d7;
     flex-wrap: nowrap;
 }
 header nav div p{
     font-size: 50px;
-    color:rgb(24, 79, 151);
+    color:rgb(211, 213, 216);
     
 }
 header,nav,.nav-links{
@@ -37,19 +37,24 @@ header nav .nav-links li{
     flex-shrink: 0;
 }
 header nav .nav-links li a p:hover,header nav .nav-links li:hover,header nav .nav-links li a:hover{
-    background-color:rgb(228, 95, 6);
+    background-color:rgb(247, 104, 9);
    color:white;
    cursor:pointer;
 }
+header nav .nav-links li:active{
+    background-color:rgb(247, 104, 9);                  
+}
+
 
 header nav .nav-links li a{
     
     width:inherit;
     height:inherit;
     text-decoration: none;
-    color:rgb(15, 6, 65);
-    font-size: 18px;
+    color:white;
+font-size: 18px;
     font-weight: bold;
+
 }
 header nav .nav-links li a  img{
     padding-left: 35px;
@@ -65,7 +70,7 @@ header nav  ul .logo1{
     
 }
 .About{
-    background-color: rgba(49, 46, 46, 0.411);
+    background-color: rgb(49, 46, 46);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +95,7 @@ font-style: italic;
     width:200px;
     height:200px;
     border-radius: 50%;
-    box-shadow: 5px 6px 2px rgb(146, 143, 141);
+    box-shadow: 0 0 0 5px rgb(241, 226, 5);
     object-fit: cover;
 }
 #sections{
@@ -100,16 +105,17 @@ font-style: italic;
     flex-direction: column;
     row-gap: 30px;
     justify-content: center;
-    background-color:rgba(66, 65, 64, 0.144);
+    background-color: rgba(49, 46, 46, 0.658);
     box-sizing: border-box;
     padding: 30px;
 }
 #sections .aboutme{
-    background-color: #3a34341f;
+    background-color: rgb(49, 46, 46);
     border-radius: 10px;
+    color:white;
 }
 #sections #skills{
-    background-color: #3a34341f;
+    background-color: rgb(49, 46, 46);
     border-radius: 10px;
     
 }
@@ -142,7 +148,7 @@ font-style: italic;
     font-weight: bold;
 }
 #sections #skills #skill{
-    color:rgb(6, 6, 61);
+    color:rgb(241, 226, 5);
    
     font-size: 40px;
     text-align: center;
@@ -155,7 +161,7 @@ font-style: italic;
     text-align: center;
 }
 #sections .aboutme h1{
-    color:rgb(6, 6, 61);
+    color:rgb(241, 226, 5);
    
     font-size: 40px;
     text-align: center;
@@ -168,11 +174,11 @@ font-style: italic;
     line-height: 34px;
 }
 #sections .projects{
-    background-color: #3a34341f;
+     background-color: rgb(49, 46, 46);
     border-radius: 10px;
 }
 #sections .projects h1{
-    color:rgb(6, 6, 61);
+    color:rgb(241, 226, 5);
    
     font-size: 40px;
     text-align: center;
@@ -221,11 +227,12 @@ font-style: italic;
     font-weight: bold;
 }
 #sections .learning{
-    background-color: #3a34341f;
+    background-color: rgb(49, 46, 46);
+    
     border-radius: 10px;
 }
 .learning #learnings{
-    color:rgb(6, 6, 61);
+    color:rgb(241, 226, 5);
     font-size: 40px;
     text-align: center;
 }
@@ -267,14 +274,15 @@ font-style: italic;
 }
 .learning  .desc{
     margin:10px ;
-    color:rgb(4, 4, 51);
+    color:rgb(213, 213, 219);
     font-size: 25px;
     text-align: center;
     font-weight: bold;
 }
 #sections .resume{
-    background-color: #3a34341f;
+    background-color: rgb(49, 46, 46);
     border-radius: 10px;
+    color: #fff;
 }
 #sections .resume .heading{
     display:flex;
@@ -282,11 +290,11 @@ font-style: italic;
     margin:10px 10px 0px 10px;
 }
 #sections .resume .heading #resumes{
-    color:rgb(6, 6, 61);
+    color:rgb(241, 226, 5);
     font-size: 40px;
 }
 #sections .resume .heading #Feedback{
-    color:rgb(6, 6, 61);
+    color:rgb(241, 226, 5);
     font-size: 40px;
 }
 #sections .resume .mainhead{
@@ -325,7 +333,7 @@ font-style: italic;
 #sections .resume .mainhead .clickable label{
     font-size: 25px;
     text-transform: capitalize;
-    color: rgb(6, 6, 61);
+    color: #e98707;
     margin:10px auto 10px auto;
 }
 #sections .resume .mainhead .feedbacks{
@@ -348,7 +356,7 @@ font-style: italic;
 #sections .resume .mainhead .feedbacks label{
     font-size: 25px;
     text-transform: capitalize;
-    color: rgb(6, 6, 61);
+    color: rgb(202, 196, 104);
 }
 #sections .resume .mainhead .feedbacks textarea{
 border: none;
@@ -378,11 +386,11 @@ cursor:pointer;
     color:#fff;
 }
 #sections .contact{
-    background-color: #3a34341f;
+    background-color: rgb(49, 46, 46);
     border-radius: 10px;
 }
 #sections .contact #contacts{
-    color:rgb(6, 6, 61);
+    color:rgb(241, 226, 5);
    
     font-size: 40px;
     text-align: center;
@@ -406,19 +414,20 @@ cursor:pointer;
    width:50px;
    height:50px;
    border-radius: 10px;
+   box-shadow: -4px 5px 6px rgba(122, 121, 121, 0.89);
 }
 .contact .social-links li a {
     text-decoration: none;
 }
 .contact .social-links li a p{
     font-size: 18px;
-    color:rgb(10, 50, 102);
+    color:white;
 }
 .contact .info #Name{
 outline:none;
 width:250px;
 padding: 10px;
-border:2px solid rgb(15, 56, 109);
+border:2px solid rgb(191, 195, 201);
 margin-top: 10px;
 margin-bottom: 10px;
 border-radius: 10px;
@@ -428,7 +437,7 @@ font-size: 18px;
     outline:none;
     width:250px;
     padding: 10px;
-    border:2px solid rgb(15, 56, 109);
+    border:2px solid rgb(191, 195, 201);
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -440,7 +449,7 @@ font-size: 18px;
         width:300px;
         height:100px;
         padding: 10px;
-        border:2px solid rgb(15, 56, 109);
+        border:2px solid rgb(191, 196, 202);
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 18px;
@@ -450,22 +459,23 @@ font-size: 18px;
         outline:none;
         width:100px;
         padding: 10px;
-        border:2px solid rgb(15, 56, 109);
-        background-color: #0b3d5f;
+        background-color: #e98707;
         color:white;
+        border:2px solid #e98707;
         font-size: 20px;
     }
     .contact .info #submitbtn:hover{
-        background-color: #e98707;
         color:white;
-        border:none;
+        border:2px solid rgb(15, 56, 109);
+        background-color: #0b3d5f;
     }
 .contact .info label{
     font-size: 25px;
+    color: #fff;
 }
 footer{
     
-    background-color: rgb(233, 229, 15);
+    background-color: #3a3434;
 }
 footer .links-footer{
     padding: 10px;
@@ -475,7 +485,7 @@ gap:10px 40px;
 list-style-type: none;
 }
 footer .links-footer li a{
-    color:rgb(24, 79, 151);
+    color:rgb(208, 212, 218);
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -488,7 +498,7 @@ footer #copyright{
     list-style-type: none;
 }
 footer #copyright li a{
-    color:rgb(24, 79, 151);
+    color:rgb(198, 201, 206);
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
