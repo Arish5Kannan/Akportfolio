@@ -35,8 +35,12 @@ header nav {
     height: 60px;
     display: flex;
     padding-left: 3px;
-    background-color: #3a3434d7;
+    
 }
+
+
+
+
 
 header nav div p {
     font-size: 50px;
